@@ -24,7 +24,7 @@ import Pinboard from 'pinboard-bookmarks';
 
 const pinboard = new Pinboard('<Your API Key>');
 
-pinboard.bookmarks({ /* options */ })
+pinboard.bookmarks({ results: 5 })
 .then((bookmarks) => {
   // bookmarks is an array of objects.
 })
