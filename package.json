@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/themeteorchef/writing-an-npm-package.git"
+    "url": "git+https://github.com/themeteorchef/pinboard-bookmarks.git"
   },
   "keywords": [
     "pinboard",
@@ -19,9 +19,9 @@
   "author": "The Meteor Chef",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/themeteorchef/writing-an-npm-package/issues"
+    "url": "https://github.com/themeteorchef/pinboard-bookmarks/issues"
   },
-  "homepage": "https://github.com/themeteorchef/writing-an-npm-package#readme",
+  "homepage": "https://github.com/themeteorchef/pinboard-bookmarks#readme",
   "dependencies": {
     "querystring": "^0.2.0",
     "request": "^2.79.0"
