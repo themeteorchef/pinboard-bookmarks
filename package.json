@@ -1,0 +1,35 @@
+{
+  "name": "pinboard-bookmarks",
+  "version": "1.0.0",
+  "description": "Fetch your bookmarks from the Pinboard.in service.",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel --presets latest src -d ./ --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/themeteorchef/writing-an-npm-package.git"
+  },
+  "keywords": [
+    "pinboard",
+    "api",
+    "wrapper"
+  ],
+  "author": "The Meteor Chef",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/themeteorchef/writing-an-npm-package/issues"
+  },
+  "homepage": "https://github.com/themeteorchef/writing-an-npm-package#readme",
+  "dependencies": {
+    "querystring": "^0.2.0",
+    "request": "^2.79.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.23.0",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-preset-latest": "^6.22.0",
+    "jest": "^19.0.2"
+  }
+}
