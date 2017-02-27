@@ -4,8 +4,8 @@
   "description": "Fetch your bookmarks from the Pinboard.in service.",
   "main": "index.js",
   "scripts": {
-    "build": "babel --presets latest src -d ./ --watch",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "babel --presets latest src -d ./ --watch --ignore src/index.test.js",
+    "test": "jest --watch"
   },
   "repository": {
     "type": "git",

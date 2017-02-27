@@ -4,7 +4,8 @@ Fetch your bookmarks from the [Pinboard.in](https://pinboard.in) service.
 
 1. Usage
 2. Development
-3. License
+3. Testing
+4. License
 
 ---
 
@@ -84,6 +85,9 @@ Example Response:
 
 #### Development
 If you wish to make changes, this package relies on [Babel](https://babeljs.com) to compile its source. Clone the repo and run `npm install`, followed by `npm run build`. You can test the code by `import`ing or `require()`ing the `index.js` file in the root of the repository.
+
+#### Testing
+This package includes a small suite of tests that rely on [Jest](https://facebook.github.io/jest/). To run (and watch) tests, from your terminal call `npm test`.
 
 #### License
 
